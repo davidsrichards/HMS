@@ -1,0 +1,14 @@
+.dt-profile .img {
+  clip-path: circle(50% at 50% 50%);
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+}
+
+.dt-profile input {
+  @apply outline-none ring-1 ring-slate-600 rounded-sm p-1 focus:ring-blue-700;
+}
+
+.shadow {
+  box-shadow: 0px 0px 4px 1px hsl(0, 0%, 70%);
+}

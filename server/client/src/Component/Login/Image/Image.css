@@ -1,0 +1,22 @@
+.image {
+  background: url("../../../assets/Image/hospital-logo.png");
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  transform: scale(0.7);
+}
+
+.name {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  color: rgb(2, 146, 65);
+  font-weight: bold !important;
+}
+
+.main {
+  background: rgb(225, 176, 193);
+}
+
+.logo {
+  clip-path: circle(50% at 50% 50%);
+}

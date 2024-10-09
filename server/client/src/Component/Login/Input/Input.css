@@ -1,0 +1,40 @@
+.title {
+  color: #737373;
+  font-size: 1.1rem;
+  line-height: 0;
+  letter-spacing: 0.05rem;
+}
+.key {
+  color: #df072e;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.sign {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  line-height: 0;
+}
+
+.text-field {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.btn {
+  font-weight: 700;
+  color: #222;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.middle {
+  color: rgb(27, 221, 111);
+}

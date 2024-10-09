@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+#root {
+  scroll-behavior: smooth;
+}
+* {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.scroll-none {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+* {
+  scrollbar-width: none;
+}
